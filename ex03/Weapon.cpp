@@ -6,11 +6,11 @@
 /*   By: anunes-o <anunes-o@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/23 15:51:50 by anunes-o          #+#    #+#             */
-/*   Updated: 2026/11/23 15:51:51 by anunes-o         ###   ########.fr       */
+/*   Updated: 2026/11/23 16:06:57 by anunes-o         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Weapon.h"
+#include "Weapon.hpp"
 
 Weapon::Weapon(const std::string &type) : type(type)
 {

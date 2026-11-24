@@ -6,7 +6,7 @@
 #    By: anunes-o <anunes-o@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/11/13 14:48:13 by anunes-o          #+#    #+#              #
-#    Updated: 2026/11/23 14:30:48 by anunes-o         ###   ########.fr        #
+#    Updated: 2026/11/23 16:02:41 by anunes-o         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ all : $(NAME)
 
 $(NAME) : $(OBJS)
 	@$(CXX) $(CXXFLAGS) $(OBJS) -o $(NAME)
-	@echo "\033[1;32m✅ zombies created successfully!\033[0m"
+	@echo "\033[1;32m✅ zombies created successfully!  \033[0m"
 	
 %.o: %.cpp
 	@$(CXX) $(CXXFLAGS) -c $< -o $@
